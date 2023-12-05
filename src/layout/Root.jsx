@@ -3,6 +3,13 @@ import Darkmode from '../common/Darkmode';
 import Home from '../pages/Home/Home';
 import Sidebar from '../pages/Sidebar/Sidebar';
 
+import { MdOutlineMail } from "react-icons/md";
+import { MdOutlinePhone } from "react-icons/md";
+import { FaGithub } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa6";
+import { CiLinkedin } from "react-icons/ci";
+import Footer from '../components/Footer/Footer';
+
 const Root = () => {
 
     return (
@@ -21,7 +28,7 @@ const Root = () => {
 
                         <ol class="ms-3 flex items-center whitespace-nowrap" aria-label="Breadcrumb">
                             <li class="flex items-center text-sm text-gray-800 dark:text-gray-400">
-                                Application Layout
+                                About Me
                                 <svg class="flex-shrink-0 mx-3 overflow-visible h-2.5 w-2.5 text-gray-400 dark:text-gray-600" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M5 1L10.6869 7.16086C10.8637 7.35239 10.8637 7.64761 10.6869 7.83914L5 14" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
                                 </svg>
@@ -54,13 +61,13 @@ const Root = () => {
                                 <div class="flex flex-col sm:flex-row items-center -mx-4">
 
                                     <div className='pt-10 text-center md:text-left md:pt-0'>
-                                        <h1 class="block text-3xl font-bold text-gray-800 sm:text-4xl 2xl:text-6xl lg:text-3xl lg:leading-tight dark:text-white">I’m Sudipta Biswas <br /> <span class="text-blue-600">Front-end</span> Developer</h1>
+                                        <h1 class="block text-3xl font-bold text-gray-800 sm:text-4xl 2xl:text-6xl lg:text-3xl lg:leading-tight dark:text-white">I’m Sudipta Biswas , <br /> <span class="text-blue-600">Front-end</span> Developer</h1>
                                         <p class="mt-3 text-lg text-gray-800 dark:text-gray-400">I’m a quick learner. I believe in hard work
                                             and efficiency. I always like to learn new
                                             things and have experience with new stuff</p>
                                         <div class="mt-7 grid gap-3 w-full sm:inline-flex">
                                             <a class="py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="#">
-                                                Get started
+                                                Hire Me
                                                 <svg class="flex-shrink-0 w-4 h-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6" /></svg>
                                             </a>
                                             <a class="py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-white dark:hover:bg-gray-800 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="#">
@@ -77,7 +84,7 @@ const Root = () => {
                                                     alt="hero"
                                                     class="max-w-full lg:ml-auto mb-[-6px]"
                                                 />
-                                                <span class="absolute -left-8 -bottom-8 z-[-1]">
+                                                <span class="absolute -left-8 -bottom-0 z-[-1]">
                                                     <svg
                                                         width="93"
                                                         height="93"
@@ -121,14 +128,45 @@ const Root = () => {
 
 
 
+
                     </header>
-                    <div className='pt-20 dark:bg-gray-900'>
+
+                    <div className='z-50 flex items-center justify-center pt-5 bg-[#F0F0F6] w-full dark:bg-gray-900 flex-wrap lg:gap-0 gap-5'>
+                        <div className='flex items-center gap-2'>
+                            <span> <MdOutlineMail className='dark:text-gray-400' /></span>
+                            <span> <a className='cursor-pointer dark:text-gray-400'>sudiptabiswas506@gmail.com</a></span>
+                        </div>
+
+                        <div className="divider lg:divider-horizontal"></div>
+                        <div className='flex items-center gap-2'>
+                            <span> <MdOutlinePhone className='dark:text-gray-400' /></span>
+                            <span> <a className='cursor-pointer dark:text-gray-400'>+880 1748272867</a></span>
+                        </div>
+                        <div className="divider lg:divider-horizontal"></div>
+                        <div className='flex items-center gap-2'>
+                            <span> <FaGithub className='dark:text-gray-400' /></span>
+                            <span> <a target='_blank' href="https://github.com/Sudiptacoding" className='cursor-pointer dark:text-gray-400'>Sudiptacoding</a></span>
+                        </div>
+                        <div className="divider lg:divider-horizontal"></div>
+                        <div className='flex items-center gap-2'>
+                            <span> <FaWhatsapp className='dark:text-gray-400' /></span>
+                            <span> <a className='dark:text-gray-400'>+880 1748272867</a></span>
+                        </div>
+                        <div className="divider lg:divider-horizontal"></div>
+                        <div className='flex items-center gap-2'>
+                            <span> <CiLinkedin className='dark:text-gray-400' /></span>
+                            <span> <a target='_blank' href='https://www.linkedin.com/in/sudipta-biswas123/' className='dark:text-gray-400'>Sudipta Biswas</a></span>
+                        </div>
+
+                    </div>
+                    <div className=' dark:bg-gray-900'>
                         <Home></Home>
                     </div>
 
                 </div>
 
             </body>
+            <Footer></Footer>
         </div>
     );
 };

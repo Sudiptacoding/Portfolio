@@ -18,7 +18,7 @@ const Home = () => {
     ]
     return (
         <div className=''>
-            <Section title={'my skill'} body={'i am fontsdkjfa'}></Section>
+            <Section title={'My skills'} body={'Proven ability to create visually stunning and responsive web applications, focusing on both functionality and user experience. Adept at leveraging modern frontend frameworks to deliver dynamic and engaging interfaces.'}></Section>
             <div>
 
                 <div class="">
@@ -39,6 +39,26 @@ const Home = () => {
                 </div>
 
             </div>
+
+
+
+            {/* amar sonaer bbangla */}
+
+            <div>
+                <div className='pb-32'>
+
+
+
+
+
+
+
+                </div>
+            </div>
+
+
+
+
         </div>
 
 
