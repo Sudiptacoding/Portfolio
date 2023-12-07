@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Language = ({ text, value }) => {
-    console.log(value)
+
     return (
         <div>
             <div className='mb-5'>
