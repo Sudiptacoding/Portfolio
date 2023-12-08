@@ -1,6 +1,8 @@
 import React from 'react';
 import SkillSection from '../../components/SkillSection/SkillSection';
 import OurRoodMap from '../../components/OurRoodMap/OurRoodMap';
+import ImageScroll from '../../components/ImageScroll/ImageScroll';
+import SkillsSection from '../../components/SkillsSection/SkillsSection';
 
 
 const Home = () => {
@@ -10,9 +12,14 @@ const Home = () => {
 
             <SkillSection></SkillSection>
 
-            <div className='pb-32'>
-                <OurRoodMap></OurRoodMap>
-            </div>
+            <ImageScroll></ImageScroll>
+
+
+            <OurRoodMap></OurRoodMap>
+
+
+            <SkillsSection></SkillsSection>
+
 
 
 

@@ -1,0 +1,85 @@
+
+#holder{
+    overflow-x:hidden;
+    min-height: 100vh;
+}
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+.title{
+    margin-top: 3rem;
+    text-align: center;
+}
+.scroll-item{
+    position: relative;
+    height: 600px;
+    overflow: hidden;
+    box-shadow: 0 1px 17px 0 rgba(0, 0, 0, 0.75);
+}
+.scroll-item:nth-child(1){
+    background: url('https://i.postimg.cc/MHTWCCcz/chef-2894f-web-app-2.png');
+    background-size: cover;
+    background-position: top;
+    transition: all 1s ease;
+}
+.scroll-item:nth-child(2){
+    background: url('https://i.postimg.cc/vmrpPD29/volentear-8e15a-web-app-1.png');
+    background-size: cover;
+    background-position: top;
+    transition: all 1s ease;
+}
+.scroll-item:nth-child(3){
+    background: url('https://i.postimg.cc/vZ2SmfgG/localhost-5174-2.png');
+    background-size: cover;
+    background-position: top;
+    transition: all 1s ease;
+}
+.scroll-item img{
+    width: 100%;
+    display: block;
+}
+.scroll-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: flex-start;
+    gap: 3rem;
+    margin: 3rem 0;
+}
+.icons{
+    position: absolute;
+    bottom: -100%;
+    background-color: rgba(21, 25, 54, 1);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: bottom 0.3s ease;
+}
+.icons button{
+    margin: 0 1rem;
+    border: none;
+    background-color: transparent;
+    font-size: 1.2rem;
+    color: #fff;
+    cursor: pointer;
+}
+.scroll-item:hover .icons{
+    bottom: 0;
+}
+.scroll-item:hover{
+    background-position: bottom;
+}
+
+@media screen and (max-width: 992px){
+    .scroll-list{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 576px){
+    .scroll-list{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

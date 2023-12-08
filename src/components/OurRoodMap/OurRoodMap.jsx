@@ -5,7 +5,7 @@ import { Parallax, Background } from "react-parallax";
 const OurRoodMap = () => {
     return (
         <div class=" p-4">
-            <Section title={'My Learning Rootmap'} body={'Proven ability to create visually stunning and responsive web applications, focusing on both functionality and user experience. Adept at leveraging modern frontend frameworks to deliver dynamic and engaging interfaces.'}></Section>
+            <Section title={'My Learning Rootmap'} body={'I have been able to come to this day as a result of long-term relentless work and trying my best. Details of what I have learned on this long journey.'}></Section>
 
 
             <Parallax strength={500}>
