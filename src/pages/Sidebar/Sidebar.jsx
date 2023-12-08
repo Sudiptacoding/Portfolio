@@ -25,7 +25,7 @@ const Sidebar = () => {
             <div className=''>
                 <AboutMe text={'Age:'} value={'24'}></AboutMe>
                 <AboutMe text={'Residence:'} value={'BD'}></AboutMe>
-                <AboutMe text={'Experience:'} value={'2 years'}></AboutMe>
+                <AboutMe text={'Experience:'} value={'1 years'}></AboutMe>
                 <AboutMe text={'Address:'} value={'Satkhira,Bangladesh'}></AboutMe>
             </div>
             <div className="pt-5 pb-3 font-bold divider dark:text-gray-400">Languages</div>

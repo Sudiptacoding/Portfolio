@@ -89,7 +89,7 @@ const SkillsSection = () => {
                     <div className='pt-10'>
                         <AboutMe text={'Age:'} value={'24'}></AboutMe>
                         <AboutMe text={'Residence:'} value={'BD'}></AboutMe>
-                        <AboutMe text={'Experience:'} value={'2 years'}></AboutMe>
+                        <AboutMe text={'Experience:'} value={'1 years'}></AboutMe>
                         <AboutMe text={'Address:'} value={'Satkhira,Bangladesh'}></AboutMe>
                     </div>
                 </div>
