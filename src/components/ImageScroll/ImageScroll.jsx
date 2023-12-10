@@ -8,7 +8,7 @@ const ImageScroll = () => {
         <div>
             <div class="holder">
                 <div class="container">
-                    <Section title={'My Learning Rootmap'} body={'Proven ability to create visually stunning and responsive web applications, focusing on both functionality and user experience. Adept at leveraging modern frontend frameworks to deliver dynamic and engaging interfaces.'}></Section>
+                    <Section title={'Project Showcase'} body={"Welcome to our Project List section, a curated showcase of our innovative endeavors meticulously sorted for your exploration. At the intersection of creativity and functionality, each project represents a unique journey in pushing the boundaries of what's possible."}></Section>
                     <div class="scroll-list">
                         <div class="scroll-item">
                             <div class="icons">
