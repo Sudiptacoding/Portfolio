@@ -43,7 +43,7 @@ const Root = () => {
                     </nav>
                 </div>
                 <div class="w-full 2xl:ps-[21rem] relative">
-                    <span className='absolute right-[38px] top-[16px] cursor-pointer z-50'> <Darkmode></Darkmode></span>
+                    <span className='absolute right-[38px] top-[16px] cursor-pointer z-10'> <Darkmode></Darkmode></span>
                     <Banner></Banner>
                     <SocialLink></SocialLink>
                     <div className=' dark:bg-gray-900'>
